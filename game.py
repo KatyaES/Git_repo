@@ -4,6 +4,7 @@ import random
 #i want to add new feature
 #New commit
 #fourth line was added
+#it is a 5 line
 
 def start():
     my_points = []
