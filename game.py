@@ -5,7 +5,7 @@ import random
 #New commit
 #fourth line was added
 #it is a 5 line
-#it is main
+#it is feature yet
 
 def start():
     my_points = []
