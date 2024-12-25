@@ -2,6 +2,7 @@ import random
 
 #features
 #i want to add new feature
+#New commit
 
 def start():
     my_points = []
