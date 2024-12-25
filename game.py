@@ -1,6 +1,7 @@
 import random
 
-
+#features
+#i want to add new feature
 
 def start():
     my_points = []
