@@ -5,11 +5,11 @@ def start():
     computer_points = []
     def comparisons():
         if len(my_points) == 2:
-            print('You win! Game end!')
+            print('You win! game end!')
             my_points.clear()
             computer_points.clear()
         elif len(computer_points) == 2:
-            print('Computer win! Game end!')
+            print('Computer win! game end, try again!')
             my_points.clear()
             computer_points.clear()
             comparisons()
@@ -20,7 +20,7 @@ def start():
             print('Game root:\n1. The game starts with your choice: rock, paper or scissors(nothing more).\n2. The game ends when one of the players reaches 10 points')
         #DRAW
         elif my_choice == 'scissors' and computer_choice == 'scissors':
-            print(f'Computer: {computer_choice}\nResult: Draw\nME  COMPUTER\n{len(my_points)}      {len(computer_points)}')
+            print(f'\nComputer: {computer_choice}\nResult: Draw\nME  COMPUTER\n{len(my_points)}      {len(computer_points)}')
         elif my_choice == 'rock' and computer_choice == 'rock':
             print(f'\nComputer: {computer_choice}\nResult: Draw\nME  COMPUTER\n{len(my_points)}      {len(computer_points)}')
         elif my_choice == 'paper' and computer_choice == 'paper':
