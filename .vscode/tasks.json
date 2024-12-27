@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Python Script in CMD",
+        "type": "shell",
+        "command": "start cmd /k python ${file}",
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always"
+        }
+      }
+    ]
+  }
