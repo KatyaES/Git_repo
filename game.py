@@ -48,7 +48,7 @@ def start():
             computer_points.append(1)
             print(f'\nComputer: {computer_choice}\nResult: Computer win!\nME  COMPUTER\n{len(my_points)}      {len(computer_points)}')
         else:
-            print("Wrong command \nWrite -help for view more commands")
+            print("Wrong command \nWrite -help, for view more commands")
             comparisons()
         comparisons()
     comparisons()
